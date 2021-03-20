@@ -18,6 +18,7 @@ TARGET_OTA_ASSERT_DEVICE := sirius
 TARGET_SCREEN_DENSITY := 411
 
 # Kernel
+TARGET_KERNEL_CLANG_PATH := $(PWD)/vendor/qcom/sdclang
 TARGET_KERNEL_CONFIG := sirius_defconfig
 
 # HIDL
