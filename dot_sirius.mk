@@ -11,6 +11,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 
 # Set BootAnimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := dot_sirius
